@@ -1,13 +1,6 @@
 import { BncClient } from "../"
 import { checkAddress, decodeAddress } from "../../crypto"
-import { TransferInClaim,
-  ClaimMsg,
-  ClaimTypes,
-  TransferOutRefundClaim,
-  BindMsg,
-  BaseMsg,
-  TransferOutMsg,
-  UpdateBindClaim,
+import { TransferInClaim, ClaimMsg, ClaimTypes, TransferOutRefundClaim, BindMsg, BaseMsg, TransferOutMsg, UpdateBindClaim,
 } from "../../types"
 
 /**
