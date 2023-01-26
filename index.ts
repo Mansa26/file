@@ -36,7 +36,7 @@ export class Bridge {
     expire_time,
     symbol,
     fromAddress,
-  }: TransferInClaim & { sequence: number; fromAddress: string }) {
+  } TransferInClaim & { sequence: number; fromAddress: string }) {
     if (sequence < 0) {
       throw new Error("sequence should not be less than 0")
     }
